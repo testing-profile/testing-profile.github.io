@@ -9,6 +9,3 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @cross_origin()
 def index():
     return "Hello, World!"
-
-if __name__ == "__main__":
-    app.run()'''
