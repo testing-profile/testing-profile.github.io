@@ -1,7 +1,7 @@
 from flask import Flask
 import os
 from flask_cors import CORS, cross_origin
-import jerma-face-recog
+import ./jerma-face-recog
 import getpicture from jerma-face-recog
 app = Flask(__name__)
 cors = CORS(app)

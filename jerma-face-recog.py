@@ -14,7 +14,7 @@ def getpicture:
     image_name = "output.jpg"
     ski.io.imsave(image_name,img_transfer)
 
-    for x in range(4):
+    for x in range(1):
         # initialize dlib's face detector (HOG-based) and then create
         # the facial landmark predictor
         detector = dlib.get_frontal_face_detector()
