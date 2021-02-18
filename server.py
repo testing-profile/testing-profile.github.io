@@ -1,4 +1,4 @@
-from flask import Flask, redirect
+from flask import Flask, redirect, url_for
 import os
 from flask_cors import CORS, cross_origin
 from mangler import *
