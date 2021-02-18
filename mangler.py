@@ -9,7 +9,7 @@ import skimage.io
 from skimage.transform import PiecewiseAffineTransform, warp
 import random
 
-def getpicture:
+def getpicture():
     img_transfer = ski.io.imread('romano2.jpg')
     image_name = "output.jpg"
     ski.io.imsave(image_name,img_transfer)
